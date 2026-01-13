@@ -282,7 +282,7 @@ func htmlToText(html string) string {
 		}
 	}
 
-	return strings.Join(cleanLines, "\n")
+	return strings.Join(cleanLines, "\n\n")
 }
 
 func removeTag(html, tag string) string {
